@@ -1,0 +1,52 @@
+.color-select-list {
+    width: 100%;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+
+    .char-form-colors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 28px;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 0 10px;
+        box-sizing: border-box;
+        border: 1px solid hsla(0, 0%, 100%, 0);
+
+        &.chart-form-colors-active {
+            border: 1px solid #0d76cf;
+        }
+
+        &:hover {
+            border: 1px solid #0d76cf;
+        }
+
+        .colors-item {
+            width: 36px;
+            height: 8px;
+        }
+    }
+}
+
+.char-form-colors-ref {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+    &:hover {
+        border: 1px solid #0d76cf;
+    }
+
+    .colors-item {
+        width: 36px;
+        height: 8px;
+    }
+}
