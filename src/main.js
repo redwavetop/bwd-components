@@ -35,6 +35,9 @@ Vue.use(bwdColorSelect)
 import bwdTable from  '../components/lib/bwd-table/index'
 Vue.use(bwdTable)
 
+import bwdHead from  '../components/lib/bwd-head/index'
+Vue.use(bwdHead)
+
 Vue.config.productionTip = false
 
 new Vue({

@@ -37,6 +37,9 @@
     <div class="container2">
       <bwd-table :searchForm="searchForm" ref="bTable" :config="tableconfig"></bwd-table>
     </div>
+    <div class="container2">
+      <bwd-head :headOption="headOption"></bwd-head>
+    </div>
   </div>
 </template>
 
@@ -57,6 +60,11 @@ export default {
   data() {
     return {
       load: false,
+
+      headOption:{
+        title:'标题'
+      },
+
       searchForm: {
         leConditions: [
           {
@@ -425,14 +433,7 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 
 .container {
   width: 100px;
