@@ -1,13 +1,25 @@
-
-
+import BwdColorSelect from './bwd-colorSelect';
 import BwdCard from './bwd-card';
 import BwdPie from './bwd-pie';
-import BwdColorSelect from './bwd-colorSelect';
+import BwdBar from './bwd-bar';
+import BwdLine from './bwd-line';
+import BwdScatter from './bwd-scatter';
+import BwdGauge from './bwd-gauge';
+import BwdHeatmap from './bwd-heatmap';
+import BwdGraph from './bwd-graph';
+import BwdTable from './bwd-table';
 
 const components = {
   BwdCard,
   BwdPie,
-  BwdColorSelect
+  BwdColorSelect,
+  BwdBar,
+  BwdLine,
+  BwdScatter,
+  BwdGauge, 
+  BwdHeatmap,
+  BwdGraph,
+  BwdTable
 }
 
 const install = function(Vue){
@@ -25,5 +37,12 @@ export default API;
 export {
   BwdCard,
   BwdPie,
-  BwdColorSelect
+  BwdColorSelect,
+  BwdBar,
+  BwdLine,
+  BwdScatter,
+  BwdGauge,
+  BwdHeatmap,
+  BwdGraph,
+  BwdTable
 }
