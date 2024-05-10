@@ -20,3 +20,6 @@ npm run build:all
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## 上传组件库需要进行执行 npm run build:all 将文件进行打包
+
+
+#### 1.新增头部标题组件 
