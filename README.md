@@ -23,3 +23,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 #### 1.新增头部标题组件 
+#### 2.标题与echarts图表归为一类进行封装
