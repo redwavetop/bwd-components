@@ -1,16 +1,16 @@
 <template>
     <div class="bwd-container">
-        <div class="card-mini" v-if="cardOption.miniCard">
+        <div class="card-mini" v-if="cardOption.mini">
             <mini-line v-if="cardOption.miniCard.type == 'line'" :data="cardOption.miniCard.data"></mini-line>
             <mini-bar v-else-if="cardOption.miniCard.type == 'bar'" :data="cardOption.miniCard.data"></mini-bar>
         </div>
 
         <div class="card-statistics" v-else>
             <span class="content">
-                {{ cardOption.content }}
+                {{ cardOption.base.content }}
             </span>
             <span class="description">
-                {{ cardOption.description }}
+                {{ cardOption.base.description }}
             </span>
         </div>
     </div>
