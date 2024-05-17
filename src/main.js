@@ -41,6 +41,8 @@ Vue.use(bwdHead)
 import bwdEcharts from  '../components/lib/bwd-echarts/index'
 Vue.use(bwdEcharts)
 
+
+
 Vue.config.productionTip = false
 
 new Vue({

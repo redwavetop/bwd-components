@@ -43,9 +43,15 @@
     <div class="container2">
       <bwd-head :headOption="headOption"></bwd-head>
     </div> -->
-    <div class="container2">
+    <!-- <div class="container2">
       <bwd-echarts :echartsOption="echartsOption"></bwd-echarts>
+    </div> -->
+
+    <div class="container2">
+      <bwd-head :headOption="headOption"></bwd-head>
     </div>
+  
+    
   </div>
 </template>
 
@@ -176,7 +182,10 @@ export default {
       },
 
       headOption: {
-        title: '标题'
+        title: '标题',
+        fontSize:30,
+        fontColor:'red',
+        fontStyle:['','']
       },
 
       searchForm: {

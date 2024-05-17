@@ -9,6 +9,7 @@ import BwdHeatmap from './bwd-heatmap';
 import BwdGraph from './bwd-graph';
 import BwdTable from './bwd-table';
 import BwdHead from './bwd-head';
+import BwdWorkbench from './bwd-workbench';
 
 const components = {
   BwdCard,
@@ -21,7 +22,8 @@ const components = {
   BwdHeatmap,
   BwdGraph,
   BwdTable,
-  BwdHead
+  BwdHead,
+  BwdWorkbench
 }
 
 const install = function(Vue){
@@ -47,5 +49,6 @@ export {
   BwdHeatmap,
   BwdGraph,
   BwdTable,
-  BwdHead
+  BwdHead,
+  BwdWorkbench
 }
